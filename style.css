@@ -1,0 +1,57 @@
+/* style.css */
+
+/* 全体のレイアウト */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* タイトルのスタイル */
+#title {
+    margin-top: 20px;
+}
+
+/* 全てのパーツを表示するセレクトボックスのスタイル */
+#allParts {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+/* 追加されたアイテムのスタイル */
+#items {
+    padding: 5px; /* 内部の余白を削除 */
+    border: 1px solid #ccc; /* 上部のボーダーを追加 */
+    max-height: 400px; /* 最大の高さを指定 */
+    overflow-y: auto; /* 縦方向のスクロールを可能に */
+}
+
+/* 追加されたアイテムのスタイル */
+.item {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: move;
+    border-radius: 10px; /* 丸みのある角 */
+}
+
+/* ボタンのスタイル */
+button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px; /* 丸みのある角 */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
